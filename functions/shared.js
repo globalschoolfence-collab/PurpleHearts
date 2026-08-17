@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 const Busboy = require('busboy');
 
-const MAIL_TO = process.env.MAIL_TO || 'info@fairfieldec.org';
+const MAIL_TO = process.env.MAIL_TO || 'info@purpleheartschildcare.com';
 const MAIL_FROM = process.env.MAIL_FROM || process.env.SMTP_USER;
 
 const FIELD_LABELS = {
@@ -44,7 +44,7 @@ function buildHtml(title, fields) {
     <div style="font-family:Arial,sans-serif;max-width:640px;margin:0 auto">
       <h2 style="background:#6BBE44;color:#fff;padding:16px 20px;margin:0;border-radius:6px 6px 0 0">${escapeHtml(title)}</h2>
       <table style="width:100%;border-collapse:collapse;border:1px solid #ddd;border-top:none">${rows}</table>
-      <p style="margin-top:16px;color:#999;font-size:12px">Sent from the Fairfield Education Center website</p>
+      <p style="margin-top:16px;color:#999;font-size:12px">Sent from the Purple Hearts Childcare website</p>
     </div>`;
 }
 

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
-    <link rel="apple-touch-icon" href="../images/FEC%20logo.png">
-    <meta name="description" content="Admissions - Fairfield Education Center enrollment process and application form.">
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+    <meta name="description" content="Admissions - Purple Hearts Childcare enrollment process and application form.">
     <meta name="keywords" content="admissions, enrollment, apply, registration">
-    <meta property="og:title" content="Admissions - Fairfield Education Center">
+    <meta property="og:title" content="Admissions - Purple Hearts Childcare">
     <meta property="og:description" content="Start your child's journey with us">
-    <title>Admissions - Fairfield Education Center</title>
+    <title>Admissions - Purple Hearts Childcare</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="../"><img src="../images/FEC logo.png" alt="Fairfield Education Centers logo" class="logo-img"></a>
+                <a href="../"><img src="../images/logo-full.png" alt="Purple Hearts Childcare logo" class="logo-img"></a>
                 </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -42,7 +42,7 @@
     <section class="page-header">
         <div class="container">
             <h1>Admissions & Enrollment</h1>
-            <p>Join the Fairfield Education Center family</p>
+            <p>Join the Purple Hearts Childcare family</p>
         </div>
     </section>
 
@@ -134,12 +134,9 @@
                     <legend>Program Preferences</legend>
                     <select name="location" required>
                         <option value="">Select Preferred Location *</option>
-                        <option value="Fairview Park — 2325 Broadway Avenue, Lorain, OH 44052">Fairview Park</option>
-                        <option value="Lorain — 2325 Broadway Avenue, Lorain, OH 44052">Lorain</option>
-                        <option value="Elyria — 416 Middle Avenue, Elyria, OH 44035">Elyria</option>
-                        <option value="Fairlawn — 258 S. Cleveland Massillon Road, Fairlawn, OH 44333">Fairlawn</option>
-                        <option value="Brunswick — 3889 Center Road, Brunswick, OH 44212">Brunswick</option>
-                        <option value="College Park (Elyria) — 295 College Park Drive, Elyria, OH 44035">College Park (Elyria)</option>
+                        <option value="Richmond Heights — 215 Richmond Rd, Richmond Heights, OH 44143">Richmond Heights</option>
+                        <option value="Richmond Heights II — 216 Richmond Rd, Richmond Heights, OH 44143">Richmond Heights II</option>
+                        <option value="Eastlake — 36100 Portage Dr, Eastlake, OH 44095">Eastlake</option>
                     </select>
                     <div class="form-row">
                         <select name="schedule" required>
@@ -263,7 +260,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h4>About Fairfield Education</h4>
+                    <h4>About Purple Hearts Childcare</h4>
                     <p>Dedicated to providing exceptional childcare and early education services that support each child's unique development and growth.</p>
                 </div>
                 <div class="footer-col">
@@ -277,9 +274,9 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
-                   <p>📞 <a href="tel:4402883400">(440) 288-3400</a></p>
-                    <p>📧 <a href="mailto:info@fairfieldec.org">info@fairfieldec.org</a></p>
-                    <p>📍 <a href="https://www.google.com/maps/search/?api=1&query=2325+Broadway+Avenue+Lorain+OH+44052" target="_blank" rel="noopener">2325 Broadway Avenue<br>Lorain, OH 44052</a></p>
+                   <p>📞 <a href="tel:2167313600">(216) 731-3600</a></p>
+                    <p>📧 <a href="mailto:info@purpleheartschildcare.com">info@purpleheartschildcare.com</a></p>
+                    <p>📍 <a href="https://www.google.com/maps/search/?api=1&query=215+Richmond+Rd+Richmond+Heights+OH+44143" target="_blank" rel="noopener">215 Richmond Rd<br>Richmond Heights, OH 44143</a></p>
                 </div>
                 <div class="footer-col">
                     <h4>Hours</h4>
@@ -288,7 +285,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; Fairfield Education Center. All Rights Reserved.</p>
+                <p>&copy; Purple Hearts Childcare. All Rights Reserved.</p>
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
                 </div>
@@ -465,7 +462,7 @@
                 if (data.success) {
                     this.reset();
                     document.querySelectorAll('.additional-child').forEach(s => s.remove());
-                    status.innerHTML = '<div class="admissions-success"><div style="font-size:2.5rem">✅</div><h3>Application Received!</h3><p>Thank you for applying to Fairfield Education Center. Our admissions team will contact you within 1–2 business days to schedule a tour.</p></div>';
+                    status.innerHTML = '<div class="admissions-success"><div style="font-size:2.5rem">✅</div><h3>Application Received!</h3><p>Thank you for applying to Purple Hearts Childcare. Our admissions team will contact you within 1–2 business days to schedule a tour.</p></div>';
                     btn.style.display = 'none';
                     document.getElementById('addChildBtn').style.display = 'none';
                 } else {

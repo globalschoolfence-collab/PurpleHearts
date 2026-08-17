@@ -5,3 +5,18 @@ functions/node_modules/
 # Documentation files
 DEVELOPER_GUIDE.md
 developer-guide/
+
+# macOS
+.DS_Store
+
+# Raw/unprocessed source media (originals live outside git; optimized
+# derivatives used on the site are committed under images/gallery-*,
+# images/hero-*, and the program-card PNGs)
+images/*.HEIC
+images/*.MOV
+images/IMG_*.JPG
+images/AdmissionOpen.PNG
+images/E7904BA9-3084-42A5-9CA6-09B2708EAF27.PNG
+
+# Stray duplicate site copy, not part of the deployed site
+purple-hearts/

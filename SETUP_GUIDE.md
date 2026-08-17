@@ -1,4 +1,4 @@
-# Fairfield Education Center - Professional Childcare Website
+# Purple Hearts Childcare - Professional Childcare Website
 
 A modern, responsive, production-ready website for a premium childcare and early education company.
 
@@ -181,7 +181,7 @@ http-server
 - Summer Camp (June - August)
 
 ### Locations Page
-- Main Campus (Fairfield)
+- Main Campus (Richmond Heights)
 - North Center (Riverside)
 - East Center (Oakwood)
 - South Center (Parkside)
@@ -213,7 +213,7 @@ http-server
 ## 💡 Customization Tips
 
 ### Change Brand Name
-Search and replace "Fairfield Education Center" with your company name
+Search and replace "Purple Hearts Childcare" with your company name
 
 ### Update Contact Info
 - Update phone numbers in footer and contact pages

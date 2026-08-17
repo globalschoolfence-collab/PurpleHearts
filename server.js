@@ -14,7 +14,7 @@ const upload = multer({
   limits: { fileSize: 10 * 1024 * 1024 }
 });
 
-const mailTo = process.env.MAIL_TO || 'info@fairfieldec.org';
+const mailTo = process.env.MAIL_TO || 'info@purpleheartschildcare.com';
 const mailFrom = process.env.SMTP_USER || 'no-reply@localhost';
 const HONEYPOT_FIELD = 'website';
 
@@ -85,7 +85,7 @@ function buildHtml(title, fields) {
       <table style="width:100%;border-collapse:collapse;border:1px solid #ddd;border-top:none">
         ${rows}
       </table>
-      <p style="margin-top:16px;color:#999;font-size:12px">Sent from the Fairfield Education Center website</p>
+      <p style="margin-top:16px;color:#999;font-size:12px">Sent from the Purple Hearts Childcare website</p>
     </div>`;
 }
 

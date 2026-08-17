@@ -1,4 +1,4 @@
-# Fairfield Daycare Website
+# Purple Hearts Childcare Website
 
 A simple, professional website for a daycare center built with pure HTML, CSS, and JavaScript.
 
@@ -44,7 +44,7 @@ daycare-website/
 ## Customization Tips
 
 - **Colors**: Edit the gradient colors in `css/styles.css` (look for hex color codes like `#667eea`)
-- **Content**: Replace "Fairfield Daycare" with your daycare name throughout the files
+- **Content**: Replace "Purple Hearts Childcare" with your daycare name throughout the files
 - **Images**: Add real photos to the `images/` folder and replace emoji placeholders
 - **Contact Info**: Update address, phone, and email in `pages/contact.html`
 - **Hours**: Modify hours in `pages/services.html` and `pages/contact.html`
@@ -81,4 +81,3 @@ The backend serves the form endpoints at `/api/contact` and `/api/careers`.
 - Replace placeholder content with your actual daycare information
 - Add real photos to the gallery
 - Deploy to a web hosting service (GitHub Pages, Netlify, or any web host)
-# FairfieldEdu

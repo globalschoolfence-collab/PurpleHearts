@@ -1,5 +1,5 @@
 // ==========================================
-// FAIRFIELD EDUCATION CENTER
+// PURPLE HEARTS CHILDCARE
 // Main JavaScript File
 // ==========================================
 
@@ -8,6 +8,23 @@ const FUNCTION_URLS = {
     careers:    'https://us-central1-fecemail2026.cloudfunctions.net/careers',
     admissions: 'https://us-central1-fecemail2026.cloudfunctions.net/admissions'
 };
+
+// Hero background parallax — background layer drifts opposite the cursor
+const heroSection = document.getElementById('heroSection');
+const heroSlideshow = document.getElementById('heroSlideshow');
+
+if (heroSection && heroSlideshow && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    heroSection.addEventListener('mousemove', (e) => {
+        const rect = heroSection.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        heroSlideshow.style.transform = `translate(${x * -18}px, ${y * -14}px) scale(1.04)`;
+    });
+
+    heroSection.addEventListener('mouseleave', () => {
+        heroSlideshow.style.transform = 'translate(0, 0) scale(1)';
+    });
+}
 
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
@@ -256,7 +273,7 @@ if (scrollTopBtn) {
     });
 }
 
-console.log('Fairfield Education Center - Website loaded successfully!');
+console.log('Purple Hearts Childcare - Website loaded successfully!');
 
 // ===== Location selector/filter for locations page =====
 function setupLocationFilter() {
